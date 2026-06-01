@@ -1,0 +1,168 @@
+# Inventory Order Management System
+
+A full-stack Inventory Order Management System designed to manage Products, Customers, and Orders through a modern web interface and RESTful APIs. The application provides inventory tracking, customer management, and order processing capabilities with a scalable architecture using React, FastAPI, PostgreSQL, Docker, Render, and Netlify.
+
+---
+
+## Project Overview
+
+This project demonstrates the development and deployment of a complete inventory management solution using modern full-stack technologies.
+
+### Key Features
+
+- Product Management (Create, View, Delete Products)
+- Customer Management (Create, View Customers)
+- Order Management (Create, View Orders)
+- Inventory Tracking
+- REST API Documentation using Swagger UI
+- PostgreSQL Database Integration
+- Docker Containerization
+- Cloud Deployment using Render and Netlify
+
+---
+
+# Live Project Links
+
+### Frontend Application
+https://inventory-order-management.netlify.app
+<img width="1917" height="988" alt="image" src="https://github.com/user-attachments/assets/5df6daa3-5c30-4fdc-a05f-51742e31162e" />
+<img width="1912" height="933" alt="image" src="https://github.com/user-attachments/assets/c908553b-dfc2-46fa-869f-c01bfc4731f4" />
+
+
+
+### Backend API
+https://inventory-backend-81ta.onrender.com
+
+### API Documentation (Swagger UI)
+https://inventory-backend-81ta.onrender.com/docs
+<img width="1916" height="976" alt="image" src="https://github.com/user-attachments/assets/945b7968-42bd-4383-9cf6-7599168b5358" />
+
+
+### GitHub Repository
+https://github.com/Harisai5/inventory-order-management-system
+
+### Docker Hub Image
+https://hub.docker.com/r/harisai1h/inventory-system
+<img width="1914" height="952" alt="image" src="https://github.com/user-attachments/assets/10a1f18b-44dc-495d-8478-88fdb63a32c6" />
+
+
+---
+
+# System Architecture
+
+```text
+┌─────────────────────┐
+│      Frontend       │
+│      React.js       │
+│      Netlify        │
+└──────────┬──────────┘
+           │ REST API
+           ▼
+┌─────────────────────┐
+│      Backend        │
+│      FastAPI        │
+│      Render         │
+└──────────┬──────────┘
+           │ SQLAlchemy ORM
+           ▼
+┌─────────────────────┐
+│     PostgreSQL      │
+│      Render DB      │
+└─────────────────────┘
+
+           ▲
+           │
+┌─────────────────────┐
+│      Docker         │
+│ Containerized App   │
+└─────────────────────┘
+Technology Stack
+Frontend
+React.js
+JavaScript (ES6+)
+Axios
+CSS3
+Vite
+Backend
+FastAPI
+Python
+SQLAlchemy ORM
+Pydantic
+Database
+PostgreSQL (Render Managed Database)
+DevOps & Deployment
+Docker
+Docker Hub
+Render
+Netlify
+GitHub
+Project Screenshots
+Frontend Dashboard
+
+Insert Frontend Dashboard Screenshot Here
+
+Backend API Documentation
+
+Insert Swagger Documentation Screenshot Here
+
+Docker Container Execution
+
+Insert Docker Container Screenshot Here
+
+PostgreSQL Database Deployment
+
+Insert PostgreSQL Render Screenshot Here
+
+API Endpoints
+Products
+Method	Endpoint
+GET	/products
+POST	/products
+GET	/products/{id}
+DELETE	/products/{id}
+Customers
+Method	Endpoint
+GET	/customers
+POST	/customers
+GET	/customers/{id}
+Orders
+Method	Endpoint
+GET	/orders
+POST	/orders
+Docker Support
+
+The backend application has been fully containerized using Docker.
+
+Pull Docker Image
+docker pull harisai1h/inventory-system:v1
+Run Docker Container
+docker run -p 8000:8000 harisai1h/inventory-system:v1
+Access Swagger UI
+http://localhost:8000/docs
+Database Implementation
+
+The project initially used SQLite during local development and testing.
+
+For production deployment, the application was migrated to:
+
+PostgreSQL (Render Managed Database)
+
+Benefits:
+
+Production-grade database
+Better scalability
+Persistent cloud storage
+SQLAlchemy ORM compatibility
+Easy migration and maintenance
+Deployment Details
+Component	Platform
+Frontend	Netlify
+Backend	Render
+Database	Render PostgreSQL
+Container Registry	Docker Hub
+Source Control	GitHub
+Developer
+Harisai
+
+GitHub:
+https://github.com/Harisai5
