@@ -23,7 +23,7 @@ const [customerPhone, setCustomerPhone] = useState("");
 
   const fetchProducts = async () => {
     const response = await fetch(
-      "http://127.0.0.1:8000/products"
+      "https://inventory-backend-81ta.onrender.com/products"
     );
 
     const data = await response.json();
@@ -32,7 +32,8 @@ const [customerPhone, setCustomerPhone] = useState("");
 
   const fetchCustomers = async () => {
     const response = await fetch(
-      "http://127.0.0.1:8000/customers"
+      
+      "https://inventory-backend-81ta.onrender.com/customers"
     );
 
     const data = await response.json();
@@ -41,7 +42,7 @@ const [customerPhone, setCustomerPhone] = useState("");
   const fetchOrders = async () => {
 
   const response = await fetch(
-    "http://127.0.0.1:8000/orders"
+   "https://inventory-backend-81ta.onrender.com/orders"
   );
 
   const data = await response.json();
@@ -52,7 +53,7 @@ const [customerPhone, setCustomerPhone] = useState("");
   const createProduct = async () => {
 
     const response = await fetch(
-      "http://127.0.0.1:8000/products",
+     "https://inventory-backend-81ta.onrender.com/products",
       {
         method: "POST",
         headers: {
@@ -82,7 +83,7 @@ const [customerPhone, setCustomerPhone] = useState("");
     const createCustomer = async () => {
 
   const response = await fetch(
-    "http://127.0.0.1:8000/customers",
+    "https://inventory-backend-81ta.onrender.com/customers",
     {
       method: "POST",
       headers: {
@@ -110,11 +111,11 @@ const [customerPhone, setCustomerPhone] = useState("");
  const deleteProduct = async (id) => {
   
   await fetch(
-    `http://127.0.0.1:8000/products/${id}`,
-    {
-      method: "DELETE",
-    }
-  );
+  `https://inventory-backend-81ta.onrender.com/products/${id}`,
+  {
+    method: "DELETE",
+  }
+);
 
   fetchProducts();
 };
@@ -146,8 +147,8 @@ const [customerPhone, setCustomerPhone] = useState("");
         <div className="bg-gray-900 p-6 rounded-xl shadow-lg">
           <h2 className="text-gray-400">Orders</h2>
           <p className="text-3xl font-bold mt-2">
-            2
-          </p>
+  {orders.length}
+</p>
         </div>
 
       </div>
