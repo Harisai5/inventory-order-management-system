@@ -26,7 +26,9 @@ This project demonstrates the development and deployment of a complete inventory
 ### Frontend Application
 https://inventory-order-management.netlify.app
 <img width="1917" height="988" alt="image" src="https://github.com/user-attachments/assets/5df6daa3-5c30-4fdc-a05f-51742e31162e" />
-<img width="1912" height="933" alt="image" src="https://github.com/user-attachments/assets/c908553b-dfc2-46fa-869f-c01bfc4731f4" />
+<img width="1898" height="910" alt="image" src="https://github.com/user-attachments/assets/0535c531-d7a6-4292-9459-e360b0f131ab" />
+warning when Limited Stock .Stock <5. 
+
 
 
 
