@@ -95,6 +95,23 @@ The frontend is deployed on **Netlify**, while the backend API is hosted on **Re
 
 ### Version Control
 **Git** and **GitHub** are used for source code management, version control, collaboration, and continuous deployment workflows.
+Deployment Details
+Component	Platform
+Frontend	Netlify
+Backend	Render
+Database	Render PostgreSQL
+Container Registry	Docker Hub
+Source Control	GitHub
+Docker Support
+
+The backend application has been fully containerized using Docker.
+
+Pull Docker Image
+docker pull harisai1h/inventory-system:v1
+Run Docker Container
+docker run -p 8000:8000 harisai1h/inventory-system:v1
+Access Swagger UI
+http://localhost:8000/docs
 Harisai
 
 GitHub:
