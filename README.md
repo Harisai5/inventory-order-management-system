@@ -76,92 +76,25 @@ https://hub.docker.com/r/harisai1h/inventory-system
 │      Docker         │
 │ Containerized App   │
 └─────────────────────┘
-Technology Stack
-Frontend
-React.js
-JavaScript (ES6+)
-Axios
-CSS3
-Vite
-Backend
-FastAPI
-Python
-SQLAlchemy ORM
-Pydantic
-Database
-PostgreSQL (Render Managed Database)
-DevOps & Deployment
-Docker
-Docker Hub
-Render
-Netlify
-GitHub
-Project Screenshots
-Frontend Dashboard
+## Technology Stack
 
-Insert Frontend Dashboard Screenshot Here
+### Frontend
+The frontend of the application is built using **React.js** and **Vite**, providing a fast and responsive user interface. Axios is used for API communication between the frontend and backend services, while modern CSS is used for styling and layout management.
 
-Backend API Documentation
+### Backend
+The backend is developed using **FastAPI**, a high-performance Python web framework for building RESTful APIs. The application uses **Pydantic** for data validation and **SQLAlchemy ORM** for database operations and object-relational mapping.
 
-Insert Swagger Documentation Screenshot Here
+### Database
+The project uses **PostgreSQL** as the production database, hosted on **Render PostgreSQL**. PostgreSQL provides reliable, scalable, and persistent data storage for products, customers, and orders.
 
-Docker Container Execution
+### Containerization
+The backend application is fully containerized using **Docker**, ensuring consistent deployment across different environments. The Docker image is published to **Docker Hub** for easy distribution and deployment.
 
-Insert Docker Container Screenshot Here
+### Deployment & Hosting
+The frontend is deployed on **Netlify**, while the backend API is hosted on **Render**. The PostgreSQL database is managed through **Render PostgreSQL**, creating a complete cloud-based deployment architecture.
 
-PostgreSQL Database Deployment
-
-Insert PostgreSQL Render Screenshot Here
-
-API Endpoints
-Products
-Method	Endpoint
-GET	/products
-POST	/products
-GET	/products/{id}
-DELETE	/products/{id}
-Customers
-Method	Endpoint
-GET	/customers
-POST	/customers
-GET	/customers/{id}
-Orders
-Method	Endpoint
-GET	/orders
-POST	/orders
-Docker Support
-
-The backend application has been fully containerized using Docker.
-
-Pull Docker Image
-docker pull harisai1h/inventory-system:v1
-Run Docker Container
-docker run -p 8000:8000 harisai1h/inventory-system:v1
-Access Swagger UI
-http://localhost:8000/docs
-Database Implementation
-
-The project initially used SQLite during local development and testing.
-
-For production deployment, the application was migrated to:
-
-PostgreSQL (Render Managed Database)
-
-Benefits:
-
-Production-grade database
-Better scalability
-Persistent cloud storage
-SQLAlchemy ORM compatibility
-Easy migration and maintenance
-Deployment Details
-Component	Platform
-Frontend	Netlify
-Backend	Render
-Database	Render PostgreSQL
-Container Registry	Docker Hub
-Source Control	GitHub
-Developer
+### Version Control
+**Git** and **GitHub** are used for source code management, version control, collaboration, and continuous deployment workflows.
 Harisai
 
 GitHub:
