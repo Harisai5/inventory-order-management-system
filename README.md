@@ -95,9 +95,6 @@ The frontend is deployed on **Netlify**, while the backend API is hosted on **Re
 
 ### Version Control
 **Git** and **GitHub** are used for source code management, version control, collaboration, and continuous deployment workflows.
-<img width="916" height="363" alt="image" src="https://github.com/user-attachments/assets/a69bdec8-03c4-4a4b-906d-315165ad07b6" />
-<img width="955" height="790" alt="image" src="https://github.com/user-attachments/assets/34595a45-340c-4882-8c25-9bb0d5524952" />
-<img width="1147" height="503" alt="image" src="https://github.com/user-attachments/assets/e5a4d0bd-2dcc-4370-981f-dd0eaa8f7643" />
 
 Harisai
 
